@@ -8,8 +8,8 @@ def credits(request):
 
 def news(request):
     data = {"news": [
-        "RiffMates now has a news page!",
-        "RiffMates has its first page"
+        "现在我们有一个报纸了!",
+        "但是现在我们没有钱了!"
     ]}
     return render(request, "news.html", data)
 
